@@ -22,14 +22,4 @@ This task involves deploying a multi-component application in a Kubernetes clust
    - A toleration will be applied to the MongoDB deployment, allowing it to be scheduled on the tainted node.
    - Ensure that the MongoDB pod is scheduled on the tainted node using node affinity rules.
 
-## Deliverables
-
-- YAML configuration files for all Kubernetes objects created (namespaces, deployments, services, etc.).
-- Command outputs from relevant `kubectl` commands to verify the successful completion of each step.
-- Screenshots demonstrating that the services are running and accessible.
-- A GitHub repository containing all files and a Markdown file explaining the instructions and commands used to complete the task.
-
-## Conclusion
-
-This task demonstrates the ability to deploy a full-stack application in a Kubernetes environment, manage inter-service communication, and implement scheduling controls through taints and tolerations.
 
